@@ -8,10 +8,11 @@ const App: React.FC = () => {
       >
         my blog
       </a>
+      <br />
       <a
         href="https://angryshhh.github.io/my-leetcode-page"
       >
-        my blog
+        my leetcode page
       </a>
     </div>
   );
