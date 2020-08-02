@@ -1,19 +1,27 @@
 import React from 'react';
+import RepoItem from './components/RepoItem';
+import './App.css';
+
+import LeetCodePic from './components/LeetCode.svg';
+import BlogPic from './components/blog.svg';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <a
+      <RepoItem
         href="https://angryshhh.github.io/my-blog"
+        title="我的博客"
       >
-        my blog
-      </a>
-      <br />
-      <a
+        <img src={BlogPic} alt="我的博客" />
+      </RepoItem>
+      <RepoItem
         href="https://angryshhh.github.io/my-leetcode-page"
+        title="我的力扣"
       >
-        my leetcode page
-      </a>
+        <img src={LeetCodePic} alt="我的力扣" />
+
+      </RepoItem>
+      
     </div>
   );
 }
