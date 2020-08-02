@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e86d2ea5.chunk.css",
+    "main.js": "/static/js/main.7248f3c8.chunk.js",
+    "main.js.map": "/static/js/main.7248f3c8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6754b0cf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6754b0cf.js.map",
+    "static/js/2.bf0d773b.chunk.js": "/static/js/2.bf0d773b.chunk.js",
+    "static/js/2.bf0d773b.chunk.js.map": "/static/js/2.bf0d773b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3299e50c70408d21d10949ec35c065fc.js": "/precache-manifest.3299e50c70408d21d10949ec35c065fc.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e86d2ea5.chunk.css.map": "/static/css/main.e86d2ea5.chunk.css.map",
+    "static/js/2.bf0d773b.chunk.js.LICENSE": "/static/js/2.bf0d773b.chunk.js.LICENSE",
+    "static/media/LeetCode.svg": "/static/media/LeetCode.8f6f97d3.svg",
+    "static/media/blog.svg": "/static/media/blog.4064f5a4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6754b0cf.js",
+    "static/js/2.bf0d773b.chunk.js",
+    "static/css/main.e86d2ea5.chunk.css",
+    "static/js/main.7248f3c8.chunk.js"
+  ]
+}
