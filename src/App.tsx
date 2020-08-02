@@ -1,5 +1,6 @@
 import React from 'react';
 import RepoItem from './components/RepoItem';
+import Background from './components/Background';
 import './App.css';
 
 import LeetCodePic from './components/LeetCode.svg';
@@ -22,6 +23,7 @@ const App: React.FC = () => {
 
       </RepoItem>
       
+      <Background />
     </div>
   );
 }

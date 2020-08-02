@@ -1,0 +1,82 @@
+.Background {
+  position: fixed;
+  z-index: -1;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.T {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+}
+
+.TLeft {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 50%;
+  height: 100%;
+
+
+  border-top: 20px solid rgba(100, 64, 64, 0.05);
+  border-left: 20px solid transparent;
+  border-right: 10px solid rgba(0, 0, 0, 0.05);
+  /* border-bottom: 10px solid transparent; */
+}
+
+.TRight {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 50%;
+  height: 100%;
+
+  border-top: 20px solid rgba(0, 0, 0, 0.05);
+  border-left: 10px solid rgba(0, 0, 0, 0.05);
+  border-right: 20px solid transparent;
+  /* border-bottom: 10px solid transparent; */
+}
+
+.R {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+}
+
+.RUp {
+  box-sizing: border-box;
+  height: 50%;
+
+  border-radius: 0 50% 50% 0;
+  border-top: 20px solid rgba(0, 0, 0, 0.05);
+  border-left: 20px solid rgba(0, 0, 0, 0.05);
+  border-right: 20px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 20px solid rgba(0, 0, 0, 0.05);
+}
+
+.RDown {
+  height: 50%;
+  /* margin-top: -20px; */
+}
+
+.RDownLeft {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 50%;
+  height: 100%;
+
+  border-top: 20px solid rgba(0, 0, 0, 0.05);
+  border-left: 20px solid rgba(0, 0, 0, 0.05);
+}
+
+.RDownRight {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 50%;
+  height: 100%;
+
+  border-radius: 0 100% 0 0;
+  border-top: 20px solid rgba(0, 0, 0, 0.05);
+  border-right: 20px solid rgba(0, 0, 0, 0.05);
+
+}

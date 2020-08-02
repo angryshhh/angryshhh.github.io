@@ -20,6 +20,6 @@ const RepoItem: React.FC<RepoItemProps> = (props) => {
       {props.title}
     </div>
   </a>;
-}
+};
 
 export default RepoItem;
